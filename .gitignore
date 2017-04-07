@@ -60,6 +60,7 @@ Server/.idea/dataSources.local.xml
 Server/.idea/sqlDataSources.xml
 Server/.idea/dynamic.xml
 Server/.idea/uiDesigner.xml
+Server/.idea/webContexts.xml
 
 # Gradle:
 Client/.idea/gradle.xml

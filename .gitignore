@@ -36,6 +36,10 @@ target/
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
 Client/.idea/workspace.xml
 Client/.idea/tasks.xml
 Client/.idea/dictionaries
@@ -45,6 +49,14 @@ Server/.idea/tasks.xml
 Server/.idea/dictionaries
 
 # Sensitive or high-churn files:
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
 Client/.idea/dataSources/
 Client/.idea/dataSources.ids
 Client/.idea/dataSources.xml
@@ -63,6 +75,9 @@ Server/.idea/uiDesigner.xml
 Server/.idea/webContexts.xml
 
 # Gradle:
+.idea/gradle.xml
+#.idea/libraries
+
 Client/.idea/gradle.xml
 Client/.idea/libraries
 
@@ -70,6 +85,7 @@ Server/.idea/gradle.xml
 Server/.idea/libraries
 
 # Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
 Client/.idea/**/mongoSettings.xml
 Server/.idea/**/mongoSettings.xml
 
@@ -89,6 +105,7 @@ resources-filtered/
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
+.idea/replstate.xml
 Client/.idea/replstate.xml
 Server/.idea/replstate.xml
 

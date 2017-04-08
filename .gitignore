@@ -76,7 +76,7 @@ Server/.idea/webContexts.xml
 
 # Gradle:
 .idea/gradle.xml
-#.idea/libraries
+.idea/libraries
 
 Client/.idea/gradle.xml
 Client/.idea/libraries
